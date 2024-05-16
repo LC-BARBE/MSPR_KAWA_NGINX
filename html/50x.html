@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 500 - Internal Server Error</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .error-container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #d9534f;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #d9534f;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #c9302c;
+        }
+    </style>
+</head>
+<body>
+<div class="error-container">
+    <h1>Error 500 - Internal Server Error</h1>
+    <p>Sorry, something went wrong on our end.</p>
+    <button class="btn" onclick="window.location.href = '/'">Go Home</button>
+</div>
+</body>
+</html>
